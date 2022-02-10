@@ -67,7 +67,7 @@ function Fotos({imgs}){
   return (
     <div className='carretel'>
       <button onClick={prev} className='btn-prev'> <img className='img-prev' src='https://image.flaticon.com/icons/png/512/484/484018.png?w=826' alt='prev icon'></img> </button>
-      <img  src={ imgs[index] } className='imgs'/>
+      <img  src={ imgs[index] } className='imgs' alt='differents nike shoes'/>
       <button onClick={next} className='btn-next'> <img className='img-next' src='https://image.flaticon.com/icons/png/512/484/484018.png?w=826' alt='next icon'></img> </button>
       
     </div>
