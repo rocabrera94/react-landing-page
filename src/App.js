@@ -22,9 +22,9 @@ export default App;
 function Menu() {
   return <div className='menu'>
     <ul className='lista'>
-      <li><a>Inicio</a></li> 
-      <li><a>Fotos</a></li>
-      <li><a>Colecciones</a></li>
+      <li><button className='btn-menu'>Inicio</button></li> 
+      <li><button className='btn-menu'>Fotos</button></li>
+      <li><button className='btn-menu'>Colecciones</button></li>
     </ul>
   </div>
 }
