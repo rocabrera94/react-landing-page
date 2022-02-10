@@ -33,7 +33,7 @@ function Inicio(){
   return (
     <div className='inicio'>
       <div >
-        <img className='inicio-foto' src='https://static.mercadonegro.pe/wp-content/uploads/2020/12/16190638/NIKE.jpg'></img>
+        <img className='inicio-foto' src='https://static.mercadonegro.pe/wp-content/uploads/2020/12/16190638/NIKE.jpg' alt='nike logo'></img>
       </div>
       <div className='inicio-texto'>
         <p className='titulo'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br />Nunc dapibus felis cursus felis dapibus, in.</p>
@@ -66,9 +66,9 @@ function Fotos({imgs}){
 
   return (
     <div className='carretel'>
-      <button onClick={prev} className='btn-prev'> <img className='img-prev' src='https://image.flaticon.com/icons/png/512/484/484018.png?w=826'></img> </button>
+      <button onClick={prev} className='btn-prev'> <img className='img-prev' src='https://image.flaticon.com/icons/png/512/484/484018.png?w=826' alt='prev icon'></img> </button>
       <img  src={ imgs[index] } className='imgs'/>
-      <button onClick={next} className='btn-next'> <img className='img-next' src='https://image.flaticon.com/icons/png/512/484/484018.png?w=826'></img> </button>
+      <button onClick={next} className='btn-next'> <img className='img-next' src='https://image.flaticon.com/icons/png/512/484/484018.png?w=826' alt='next icon'></img> </button>
       
     </div>
   )
@@ -81,7 +81,7 @@ function Productos(){
       <h1 className='colecciones-texto'>Colecciones</h1>
       <div className='cards'>
       <div className='card'>
-      <img src='https://i.ytimg.com/vi/aaa6EcSGP5o/hqdefault.jpg' className='card-image' alt='image of a running shoe'/>
+      <img src='https://i.ytimg.com/vi/aaa6EcSGP5o/hqdefault.jpg' className='card-image' alt='a running shoe'/>
         <div className='texto-container'>
           <p className='texto-title'>Running</p>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
@@ -90,7 +90,7 @@ function Productos(){
       </div>
 
       <div className='card'>
-      <img src='https://i.pinimg.com/474x/a7/b6/4f/a7b64ff0b438a3098343ce429671f31a.jpg' className='card-image' alt='image of a futbol shoe'/>
+      <img src='https://i.pinimg.com/474x/a7/b6/4f/a7b64ff0b438a3098343ce429671f31a.jpg' className='card-image' alt=' a futbol shoe'/>
         <div className='texto-container'>
           <p className='texto-title' >Futbol</p>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
@@ -100,7 +100,7 @@ function Productos(){
       </div>
 
       <div className='card'>
-        <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzJZHDYoWm1c0ty0nVr6uXvqr45wz5ZvLKiA&usqp=CAU' className='card-image' alt='image of an air jordan shoe'/>
+        <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzJZHDYoWm1c0ty0nVr6uXvqr45wz5ZvLKiA&usqp=CAU' className='card-image' alt='air jordan shoe'/>
         <div className='texto-container'>
           <p className='texto-title'>Air Jordan</p>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
