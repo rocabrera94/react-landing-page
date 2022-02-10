@@ -22,9 +22,9 @@ export default App;
 function Menu() {
   return <div className='menu'>
     <ul className='lista'>
-      <li><a href='#'>Inicio</a></li> 
-      <li><a href='#'>Fotos</a></li>
-      <li><a href='#'>Colecciones</a></li>
+      <li><a>Inicio</a></li> 
+      <li><a>Fotos</a></li>
+      <li><a>Colecciones</a></li>
     </ul>
   </div>
 }
@@ -81,7 +81,7 @@ function Productos(){
       <h1 className='colecciones-texto'>Colecciones</h1>
       <div className='cards'>
       <div className='card'>
-      <img src='https://i.ytimg.com/vi/aaa6EcSGP5o/hqdefault.jpg' className='card-image'/>
+      <img src='https://i.ytimg.com/vi/aaa6EcSGP5o/hqdefault.jpg' className='card-image' alt='running shoe'/>
         <div className='texto-container'>
           <p className='texto-title'>Running</p>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
@@ -90,7 +90,7 @@ function Productos(){
       </div>
 
       <div className='card'>
-      <img src='https://i.pinimg.com/474x/a7/b6/4f/a7b64ff0b438a3098343ce429671f31a.jpg' className='card-image'/>
+      <img src='https://i.pinimg.com/474x/a7/b6/4f/a7b64ff0b438a3098343ce429671f31a.jpg' className='card-image' alt='futbol shoe'/>
         <div className='texto-container'>
           <p className='texto-title' >Futbol</p>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
@@ -100,7 +100,7 @@ function Productos(){
       </div>
 
       <div className='card'>
-        <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzJZHDYoWm1c0ty0nVr6uXvqr45wz5ZvLKiA&usqp=CAU' className='card-image'/>
+        <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzJZHDYoWm1c0ty0nVr6uXvqr45wz5ZvLKiA&usqp=CAU' className='card-image' alt='jordan shoe'/>
         <div className='texto-container'>
           <p className='texto-title'>Air Jordan</p>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
@@ -112,5 +112,5 @@ function Productos(){
   )
 }
 
-//<a href="https://www.flaticon.com/free-icons/arrow" title="arrow icons">Arrow icons created by Those Icons - Flaticon</a>
+
 
